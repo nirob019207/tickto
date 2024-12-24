@@ -1,0 +1,21 @@
+/* In your globals.css or component's CSS */
+/* @media screen and (max-width: 639px) {
+    .custom-chart {
+      height: 230px !important;
+      width: 100% !important;
+    }
+  }
+  
+  @media screen and (min-width: 640px) and (max-width: 1023px) {
+    .custom-chart {
+      height: 250px !important;
+      width: 100% !important;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .custom-chart {
+      height: 300px !important;
+    }
+  }
+   */
