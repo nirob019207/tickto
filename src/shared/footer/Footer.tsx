@@ -1,6 +1,9 @@
 import { Facebook, Instagram, ArrowRight } from 'lucide-react'
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
+import tikito from '@/assets/logo/Tickyto_logo 1.png'
+import Image from 'next/image'
+
 
 export default function Footer() {
   return (
@@ -8,13 +11,15 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo */}
         <div>
-          <svg
-            viewBox="0 0 100 100"
-            className="w-20 h-20 fill-current"
-            aria-label="Ticketing Tix Logo"
-          >
-            <path d="M20 50 L40 50 L40 20 L60 20 L60 50 L80 50 L80 80 L60 80 L60 50 L40 50 L40 80 L20 80 Z" />
-          </svg>
+        <Image
+              src={tikito}
+              alt="Tickyto"
+              width={120}
+              height={40}
+              className="h-16"
+              priority
+            />
+          
         </div>
 
         {/* Explore Links */}

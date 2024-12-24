@@ -12,19 +12,20 @@ export function HomeNavbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="w-full border-b bg-white top-0 sticky z-50 py-4">
+    <header className="w-full border-b bg-white top-0 sticky z-40 py-4">
       <div className="container flex h-16 items-center justify-between">
         {/* Left Navigation */}
-        <nav className="hidden md:flex items-center space-x-6">
-          <Link href="/" className="text-lg font-medium transition-colors hover:text-primary">
-            Home
-          </Link>
-          <Link href="/events" className="text-lg font-medium transition-colors hover:text-primary">
-            Events
-          </Link>
-          <Link href="/blog" className="text-lg font-medium transition-colors hover:text-primary">
-            Blog
-          </Link>
+        <nav className="hidden md:flex items-center space-x-6 z-50">
+        <Link href="/" className="text-lg font-medium transition-colors hover:text-primary">
+  Home
+</Link>
+<Link href="/events" className="text-lg font-medium transition-colors hover:text-primary">
+  Events
+</Link>
+<Link href="/blog" className="text-lg font-medium transition-colors hover:text-primary">
+  Blog
+</Link>
+
         </nav>
 
         {/* Center Logo */}
